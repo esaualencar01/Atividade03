@@ -1,0 +1,22 @@
+.linha{
+	border-bottom: 1px solid #eee;
+	
+}
+.fundo{
+	background-color: #E6E6E6;
+}
+section{
+	background-color: white;
+	padding:20px;
+}
+.fundobranco{
+	background-color:white;
+}
+.h1-01 { position: fixed; top: 5px; left: 25px; right: 25px;
+         outline: 1px solid #444; background: #BDBDBD;
+         font-size:20px;text-align: center;
+     }
+ img{height: 50px;
+ 	width: 50px;
+
+ }
