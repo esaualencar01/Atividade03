@@ -45,20 +45,81 @@
 		<div class="linha"></div>
 		<h3>Questão 03</h3>
 		<figure>
-		<a href="#"><img src="imagens/on.jpg" id="obj" alt="Imagem" onclick="trocar(this)" ></a>
+		<a href="#"><img src="imagens/on.jpg" id="lamp" alt="lampada" ></a>
 
-			<figcaption>Clique na imagem para ligar.</figcaption>
-		</figure>
-
-		
+			<figcaption>Clique na imagem para desligar.</figcaption>
+		</figure>	
 
 	</section>
 	
 </div><!--Fim do container-->
 
+<div class="container">
+	<section>
+		<div class="linha"></div>
+		<h3>Questão 04</h3>
+		<input id="num01" type="text" placeholder="Insira um valor" >
+		<input id="num02" type="text" placeholder="Insira um valor" >
+		<button   type="button" class="btn btn-default" onclick="somar()" > <option value="1" id="calc"> Calcular</option></button>
+		<br/><br/>
+
+		Resultado: <input id="resultado_soma" type="text" placeholder="..." readonly>
+		<br/>
 			
+		
+
+	
+
+	</section>
+
+</div><!--Fim do container-->
+
+<div class="container">
+	<section>
+		<div class="linha"></div>
+		<h3>Questão 05</h3>
+
+		<input id="data" type="date" name="data" placeholder="Insira seu ano de nascimento">
+		<input id ="idade" type="num" name="idade" placeholder="Idade" disabled>
+
+		
+</section>
+
+</div><!--Fim do container-->
+
+<div class="container">
+	<section>
+		<div class="linha"></div>
+		<h3>Questão 06</h3>
+		<input id="num" type="aleatorio" name="aleatorio" disabled>
+
+</section>
+
+</div><!--Fim do container-->
+
+</section>
+
+</div><!--Fim do container-->
+
+<div class="container">
+	<section>
+		<div class="linha"></div>
+		<h3>Questão 07</h3>
+A) Inserir cpf com pontos e traço:	</br>
+		<input id="offCPF" maxlength="14" type="text" name="cpf00" placeholder="Ex:000.000.000-00"  		onkeydown="javascript: offCPF(this,InCPF);">
+
+	</br>	</br>	</br>
+
+B) Inserir cpf sem pontos:</br>	
+		<input id="fMasc" maxlength="14" type="text" name="cpf"  placeholder="Inserir seu CPF" 				onkeydown="javascript: fMasc(this,nCPF);">
 
 
+
+
+
+</section>
+
+</div><!--Fim do container-->
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
